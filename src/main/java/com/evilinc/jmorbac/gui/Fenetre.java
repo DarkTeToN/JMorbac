@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package gui;
+package com.evilinc.jmorbac.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

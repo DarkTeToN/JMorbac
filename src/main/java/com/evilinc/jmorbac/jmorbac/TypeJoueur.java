@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package jmorbac;
+package com.evilinc.jmorbac.jmorbac;
 
 /**
  *

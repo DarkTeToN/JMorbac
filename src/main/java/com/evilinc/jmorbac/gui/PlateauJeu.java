@@ -2,9 +2,9 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package gui;
+package com.evilinc.jmorbac.gui;
 
-import ia.IA;
+import com.evilinc.jmorbac.ia.IA;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.event.MouseEvent;
@@ -15,9 +15,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
-import jmorbac.Main;
-import jmorbac.TypeJoueur;
-import objet.Grille;
+import com.evilinc.jmorbac.jmorbac.Main;
+import com.evilinc.jmorbac.jmorbac.TypeJoueur;
+import com.evilinc.jmorbac.objet.Grille;
 
 /**
  *
@@ -82,7 +82,7 @@ public class PlateauJeu extends JPanel implements MouseListener {
                 switch (tableau[i][j]) {
                     case -1:
                         try {
-                            g.drawImage(ImageIO.read(new File("src/img/X.png")),
+                            g.drawImage(ImageIO.read(new File("src/main/java/com/evilinc/jmorbac/img/X.png")),
                                         ((j*this.getWidth()/3)+((int)(0.1*((float)this.getWidth()/3)))),
                                         ((i*this.getHeight()/3)+((int)(0.1*((float)this.getHeight()/3)))),
                                         ((int)(0.8*((float)this.getWidth()/3))),
@@ -94,7 +94,8 @@ public class PlateauJeu extends JPanel implements MouseListener {
                         break;
                     case 1:
                         try {
-                            g.drawImage(ImageIO.read(new File("src/img/O.png")),
+                            
+                            g.drawImage(ImageIO.read(new File("src/main/java/com/evilinc/jmorbac/img/O.png")),
                                         ((j*this.getWidth()/3)+((int)(0.1*((float)this.getWidth()/3)))),
                                         ((i*this.getHeight()/3)+((int)(0.1*((float)this.getHeight()/3)))),
                                         ((int)(0.8*((float)this.getWidth()/3))),

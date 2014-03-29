@@ -2,10 +2,10 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package objet;
+package com.evilinc.jmorbac.objet;
 
 import javax.swing.JOptionPane;
-import jmorbac.Main;
+import com.evilinc.jmorbac.jmorbac.Main;
 
 /**
  *

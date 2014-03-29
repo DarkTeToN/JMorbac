@@ -2,11 +2,11 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package ia;
+package com.evilinc.jmorbac.ia;
 
-import jmorbac.Main;
-import objet.Grille;
-import objet.Joueur;
+import com.evilinc.jmorbac.jmorbac.Main;
+import com.evilinc.jmorbac.objet.Grille;
+import com.evilinc.jmorbac.objet.Joueur;
 
 /**
  *

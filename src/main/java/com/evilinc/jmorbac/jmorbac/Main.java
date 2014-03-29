@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package jmorbac;
+package com.evilinc.jmorbac.jmorbac;
 
-import gui.Fenetre;
-import ia.IA;
+import com.evilinc.jmorbac.gui.Fenetre;
+import com.evilinc.jmorbac.ia.IA;
 import javax.swing.JOptionPane;
-import objet.Grille;
-import objet.Joueur;
+import com.evilinc.jmorbac.objet.Grille;
+import com.evilinc.jmorbac.objet.Joueur;
 
 /**
  *

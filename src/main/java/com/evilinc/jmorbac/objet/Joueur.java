@@ -3,9 +3,9 @@
  * and open the template in the editor.
  */
 
-package objet;
+package com.evilinc.jmorbac.objet;
 
-import jmorbac.TypeJoueur;
+import com.evilinc.jmorbac.jmorbac.TypeJoueur;
 
 /**
  *

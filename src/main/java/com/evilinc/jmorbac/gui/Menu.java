@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package gui;
+package com.evilinc.jmorbac.gui;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -14,7 +14,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import jmorbac.Main;
+import com.evilinc.jmorbac.jmorbac.Main;
 
 /**
  *
